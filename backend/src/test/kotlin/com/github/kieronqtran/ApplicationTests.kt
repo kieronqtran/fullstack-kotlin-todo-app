@@ -1,4 +1,4 @@
-package edu.rmitvn.student
+package com.github.kieronqtran
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

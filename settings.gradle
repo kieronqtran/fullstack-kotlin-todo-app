@@ -1,2 +1,3 @@
-rootProject.name = 'spring-boot-kotlin-testing'
-rootProject.buildFileName = 'build.gradle.kts'
+rootProject.name = 'todo-app'
+
+include 'backend'

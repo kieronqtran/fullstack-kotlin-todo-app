@@ -1,4 +1,4 @@
-# Spring Boot Kotlin sample project
+# Kotlin Todo-full-stack project
 
 This is the source code for the a sample Spring Boot application developed with Kotlin and Spring Data JPA. 
 
@@ -16,4 +16,9 @@ This project uses a [Kotlin based Gradle](https://blog.gradle.org/kotlin-meets-g
 but `build.gradle.kts` auto-complete is currently not available since Kotlin `1.1-M04` IDEA
 plugin needed for that does not allow to use `kotlin-spring` and `kotlin-jpa` compiler in a reliable way.
 
-This project is Apache 2.0 licensed.
+This project inspired by TodoMVC and Todo-Backend
+
+TODO:
+ - Backend:
+    - [ ] Design Api
+        
