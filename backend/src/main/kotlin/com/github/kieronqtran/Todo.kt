@@ -1,8 +1,11 @@
 package com.github.kieronqtran
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.annotation.JsonProperty
 import javax.persistence.*
 
 @Entity
+@JsonIgnoreProperties(ignoreUnknown=true)
 data class Todo(
         var title:String = "",
         var completed:Boolean = false,
@@ -12,6 +15,7 @@ data class Todo(
         var id: Long = 0) {
 
     val url: String
+        @JsonProperty
         get()="${Application.Config.root}/$id"
 
     override fun toString(): String {
