@@ -1,4 +1,4 @@
-# Kotlin Todo-full-stack project
+# Kotlin Todo-full-stack project - WIP
 
 This is the source code for the a sample Spring Boot application developed with Kotlin and Spring Data JPA. 
 
@@ -13,7 +13,7 @@ Make sure you have at least IntelliJ IDEA 2016.3 and Kotlin plugin 1.0.6 since `
 `kotlin-jpa` compiler plugins require this version.
 
 This project uses a [Kotlin based Gradle](https://blog.gradle.org/kotlin-meets-gradle) configuration,
-but `build.gradle.kts` auto-complete is currently not available since Kotlin `1.1-M04` IDEA
+but `build.gradle.kts` auto-complete is currently not available since Kotlin `1.1` IDEA
 plugin needed for that does not allow to use `kotlin-spring` and `kotlin-jpa` compiler in a reliable way.
 
 This project inspired by TodoMVC and Todo-Backend
@@ -21,5 +21,9 @@ This project inspired by TodoMVC and Todo-Backend
 TODO:
  - Backend:
     - [x] Design
-    - [x] Test
-        
+    - [x] Automated Test
+    - [x] Implement API
+ - Front-end:
+    - [ ] Design
+    - [ ] Automated Test
+    - [ ] Implement API
