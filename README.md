@@ -20,5 +20,6 @@ This project inspired by TodoMVC and Todo-Backend
 
 TODO:
  - Backend:
-    - [ ] Design Api
+    - [x] Design
+    - [x] Test
         
